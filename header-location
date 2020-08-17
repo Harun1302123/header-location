@@ -1,0 +1,4 @@
+<?php
+echo "<script>window.location.href = 'index.php?page=View_customer&cust=".$_SESSION['cust_id'].";</script>";
+		//header('Location: index.php?page=View_customer&cust='.$_SESSION['cust_id']);
+?>
